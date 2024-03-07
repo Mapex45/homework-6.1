@@ -1,0 +1,234 @@
+
+    a {
+        display: inline-block;
+        text-decoration: none;
+        color: var(--c-text-primary);
+    }
+
+
+
+    p {
+        line-height: var(--lh-p);
+    }
+
+
+
+:root {
+    --c-bg-body: #FFFFFF;
+
+    --c-text-primary: #070F18;
+    --c-text-secondary: #575455;
+    --c-text-ternary: #F75C4E;
+
+    --c-text-btn-primary: #FFFFFF;
+    --c-text-btn-secondary: #070F18;
+
+    --c-bg-btn-primary: #1F7CFF;
+    --c-bg-btn-secondary: #F5F6FB;
+
+    --br-btn-primary: 2rem;
+    --p-btn: 0.70rem 1.8rem;
+
+    --fs-body: 12px;
+    --fs-small: 1rem;
+    --fs-medium: 2rem;
+    --fs-big: 2.5rem;
+    --fs-verybig: 3.5rem;
+
+    --spacing-verysmall: 1.5rem;
+    --spacing-small: 2.5rem;
+    --spacing-medium: 3.5rem;
+
+    --lh-p: 1.2rem;
+    --fs-style: "Poppins", sans-serif;
+}
+
+    @media  screen and (max-width: 1250px)  and (min-width: 941px) {
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            background-color: var(--c-bg-body);
+            padding: 1rem 6rem;
+            font-family: var(--fs-style);
+            font-weight: bold;
+            font-size: var(--fs-body);
+        }
+    }
+
+
+    button {
+        border-style: none;
+        border-radius: var(--br-btn-primary);
+        padding: var(--p-btn);
+    }
+
+
+
+    .buttonSecondary {
+        background-color: var(--c-bg-btn-primary);
+        color: var(--c-text-btn-primary);
+    }
+
+
+
+    .navbar {
+        align-items: center;
+        justify-content: space-between;
+    }
+
+
+
+    .navbar__logo {
+        width: 151px;
+        height: 42px;
+    }
+
+
+
+    .navbar__links {
+        align-items: center;
+        gap: var(--spacing-small);
+        font-family: var(--fs-style);
+        font-weight: 300;
+    }
+
+
+    .navbar__signin-button {
+        font-family: var(--fs-style);
+    }
+
+
+    .hero__info-button {
+        font-family: var(--fs-style);
+    }
+
+    .row {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .column {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .hero {
+        justify-content: center;
+        margin: var(--spacing-medium) var(--spacing-verysmall);
+        gap: var(--spacing-small);
+    }
+
+    .hero__info {
+        padding: var(--spacing-small);
+        gap: var(--spacing-verysmall);
+    }
+
+    .hero__info-title {
+        font-size: var(--fs-verybig);
+        font-family: var(--fs-style);
+    }
+
+    .hero__info-description {
+        font-size: var(--fs-small);
+        color: var(--c-text-secondary);
+        font-family: var(--fs-style);
+        font-weight: 300;
+    }
+
+    .hero__info-button-wrapper {
+        margin-top: auto;
+    }
+
+    .hero__image {
+        border-radius: 25px 25px 25px 25px;
+    }
+
+    .hero-info-subtext {
+        padding: 1rem 6rem;
+        font-family: var(--fs-style);
+        font-size: 20px;
+        margin-right: 5rem;
+    }
+
+    .hero-info-column-image {
+        margin-right: 5rem;
+    }
+
+    .hero-info-column-text {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        margin: auto;
+    }
+
+    .hero-logo {
+        margin: var(--spacing-verysmall);
+    }
+
+    .hero-info-subtext {
+        display: flex;
+        justify-content: center;
+    }
+
+    .info-header {
+        display: flex;
+        justify-content: center;
+        font-size: 15px;
+        color: var(--c-text-ternary);
+    }
+
+    .hero-info-text {
+        display: flex;
+        justify-content: center;
+    }
+
+    .hero-info-text-subtext {
+        display: flex;
+        justify-content: center;
+        color: var(--c-text-secondary);
+    }
+
+    .hero-img {
+        display: flex;
+        justify-content: center;
+        padding: 6.5rem;
+        margin-left: 6rem;
+        margin-right: 6rem;
+    }
+
+    .hero-img-text {
+        margin: 100px auto;
+        width: 70%;
+
+    }
+
+    img {
+        float: left;
+        margin-right: 80px;
+        margin-bottom: 2rem;
+    }
+
+    .hero-row {
+        text-align: center;
+    }
+
+    .hero-prgh-1 {
+        color: var(--c-text-ternary);
+        font-family: var(--fs-style);
+        font-size: 20px;
+    }
+
+    .hero-hdr {
+        font-family: var(--fs-style);
+        font-size: 15px;
+    }
+
+    .hero-prgh-2 {
+        font-family: var(--fs-style);
+        color: var(--c-text-secondary);
+        font-size: 10px;
+    }
+
+
